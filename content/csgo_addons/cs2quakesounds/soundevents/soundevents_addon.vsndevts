@@ -1,12 +1,13 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	QuakeSoundsD.Combowhore = 
+	QuakeSounds.Base =
 	{
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
+        occlusion_intensity = 0
+        distance_effect_mix = 0
 		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/combowhore.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			[
@@ -18,7 +19,7 @@
 				3.000000,
 			],
 			[
-				81920.000000,
+				2048.000000,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -26,1125 +27,250 @@
 				3.000000,
 			],
 		]
+	}
+	QuakeSoundsD.Combowhore = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/combowhore.vsnd"
 	}
 
 	QuakeSoundsD.Dominating = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
+		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/dominating.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
 	}
 
 	QuakeSoundsD.Doublekill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/doublekill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/doublekill
 	}
 
 	QuakeSoundsD.Firstblood = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood
 	}
 
 	QuakeSoundsD.Godlike = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/godlike.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/godlike
 	}
 
 	QuakeSoundsD.Haha = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/haha.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/haha
 	}
 
 	QuakeSoundsD.Hattrick = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/hattrick.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/hattrick
 	}
 
 	QuakeSoundsD.Headhunter = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headhunter.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headhunter
 	}
 
 	QuakeSoundsD.Headshot = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot
 	}
 
 	QuakeSoundsD.Holyshit = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/holyshit.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/holyshit
 	}
 
 	QuakeSoundsD.Humiliation = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/humiliation.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/humiliation
 	}
 
 	QuakeSoundsD.Impressive = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/impressive.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/impressive
 	}
 
 	QuakeSoundsD.Killingspree = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/killingspree.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/killingspree
 	}
 
 	QuakeSoundsD.Ludicrouskill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ludicrouskill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ludicrouskill
 	}
 
 	QuakeSoundsD.Megakill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/megakill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/megakill
 	}
 
 	QuakeSoundsD.Monsterkill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/monsterkill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/monsterkill
 	}
 
 	QuakeSoundsD.Multikill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/multikill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/multikill
 	}
 
 	QuakeSoundsD.Perfect = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/perfect.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/perfect
 	}
 
 	QuakeSoundsD.Play = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/play.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/play
 	}
 
 	QuakeSoundsD.Prepare = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/prepare.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/prepare
 	}
 
 	QuakeSoundsD.Rampage = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/rampage.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/rampage
 	}
 
 	QuakeSoundsD.Teamkiller = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/teamkiller.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/teamkiller
 	}
 
 	QuakeSoundsD.Triplekill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/triplekill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/triplekill
 	}
 
 	QuakeSoundsD.Ultrakill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ultrakill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ultrakill
 	}
 
 	QuakeSoundsD.Unstoppable = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/unstoppable.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/unstoppable
 	}
 
 	QuakeSoundsD.Wickedsick = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/wickedsick.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/wickedsick
 	}
 	
 	QuakeSoundsF.Bottomfeeder = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/bottomfeeder.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/bottomfeeder
 	}
 
 	QuakeSoundsF.Dominating = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/dominating.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/dominating
 	}
 
 	QuakeSoundsF.Firstblood = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/firstblood.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/firstblood
 	}
 
 	QuakeSoundsF.Godlike = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/godlike.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/godlike
 	}
 
 	QuakeSoundsF.Headshot = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/headshot.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/headshot
 	}
 
 	QuakeSoundsF.Holyshit = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/holyshit.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/holyshit
 	}
 
 	QuakeSoundsF.Humiliation = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/humiliation.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/humiliation
 	}
 
 	QuakeSoundsF.Killingspree = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/killingspree.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/killingspree
 	}
 
 	QuakeSoundsF.Monsterkill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/monsterkill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/monsterkill
 	}
 
 	QuakeSoundsF.Multikill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/multikill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/multikill
 	}
 
 	QuakeSoundsF.Prepare = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/prepare.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/prepare
 	}
 
 	QuakeSoundsF.Rampage = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/rampage.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/rampage
 	}
 
 	QuakeSoundsF.Ultrakill = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/ultrakill.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/ultrakill
 	}
 
 	QuakeSoundsF.Unstoppable = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/unstoppable.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/unstoppable
 	}
 
 	QuakeSoundsF.Wickedsick = 
 	{
-		type = "csgo_mega"
-		volume = 1.000000
-		pitch = 1.000000
-		mixgroup = "Ambient"
-		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/wickedsick.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			[
-				81920.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/wickedsick
 	}
 }
