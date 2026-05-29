@@ -610,4 +610,16 @@
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/bomb/30sec.vsnd"
 	}
+
+	QuakeSoundsE.Forcewithyoualways = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/extra/force_with_you_always.vsnd"
+	}
+
+	QuakeSoundsE.Oneandonly = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/extra/one_and_only.vsnd"
+	}
 }
