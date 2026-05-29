@@ -28,6 +28,25 @@
 			],
 		]
 	}
+
+	QuakeSoundsD.Assassin = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/assassin.vsnd"
+	}
+
+	QuakeSoundsD.Bullseye = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/bullseye.vsnd"
+	}
+
+	QuakeSoundsD.Comboking = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/comboking.vsnd"
+	}
+
 	QuakeSoundsD.Combowhore = 
 	{
 		base = "QuakeSounds.Base"
@@ -40,10 +59,52 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/dominating.vsnd"
 	}
 
+	QuakeSoundsD.Dominating2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/dominating2.vsnd"
+	}
+
+	QuakeSoundsD.Dominating3 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/dominating3.vsnd"
+	}
+
 	QuakeSoundsD.Doublekill = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/doublekill.vsnd"
+	}
+
+	QuakeSoundsD.Doublekill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/doublekill2.vsnd"
+	}
+
+	QuakeSoundsD.Doublekill3 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/doublekill3.vsnd"
+	}
+
+	QuakeSoundsD.Eagleeye = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/eagleeye.vsnd"
+	}
+
+	QuakeSoundsD.Eagleeye2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/eagleeye2.vsnd"
+	}
+
+	QuakeSoundsD.Excellent = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/excellent.vsnd"
 	}
 
 	QuakeSoundsD.Firstblood = 
@@ -52,10 +113,40 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood.vsnd"
 	}
 
+	QuakeSoundsD.Firstblood2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood2.vsnd"
+	}
+
+	QuakeSoundsD.Firstblood3 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood3.vsnd"
+	}
+
+	QuakeSoundsD.Firstblood4 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/firstblood4.vsnd"
+	}
+
+	QuakeSoundsD.Flawless = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/flawlessvictory.vsnd"
+	}
+
 	QuakeSoundsD.Godlike = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/godlike.vsnd"
+	}
+
+	QuakeSoundsD.Godlike2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/godlike2.vsnd"
 	}
 
 	QuakeSoundsD.Haha = 
@@ -70,6 +161,12 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/hattrick.vsnd"
 	}
 
+	QuakeSoundsD.Hattrick2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/hattrick2.vsnd"
+	}
+
 	QuakeSoundsD.Headhunter = 
 	{
 		base = "QuakeSounds.Base"
@@ -82,10 +179,40 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot.vsnd"
 	}
 
+	QuakeSoundsD.Headshot2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot2.vsnd"
+	}
+
+	QuakeSoundsD.Headshot3 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot3.vsnd"
+	}
+
+	QuakeSoundsD.Headshot4 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/headshot4.vsnd"
+	}
+
 	QuakeSoundsD.Holyshit = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/holyshit.vsnd"
+	}
+
+	QuakeSoundsD.Humiliating = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/humiliating.vsnd"
+	}
+
+	QuakeSoundsD.Humiliatingdefeat = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/humiliatingdefeat.vsnd"
 	}
 
 	QuakeSoundsD.Humiliation = 
@@ -100,10 +227,28 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/impressive.vsnd"
 	}
 
+	QuakeSoundsD.Impressive2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/impressive2.vsnd"
+	}
+
+	QuakeSoundsD.Killingmachine = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/killingmachine.vsnd"
+	}
+
 	QuakeSoundsD.Killingspree = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/killingspree.vsnd"
+	}
+
+	QuakeSoundsD.Killingspree2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/killingspree2.vsnd"
 	}
 
 	QuakeSoundsD.Ludicrouskill = 
@@ -112,10 +257,34 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ludicrouskill.vsnd"
 	}
 
+	QuakeSoundsD.Ludicrouskill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ludicrouskill2.vsnd"
+	}
+
+	QuakeSoundsD.Maniac = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/maniac.vsnd"
+	}
+
+	QuakeSoundsD.Massacre = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/massacre.vsnd"
+	}
+
 	QuakeSoundsD.Megakill = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/megakill.vsnd"
+	}
+
+	QuakeSoundsD.Megakill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/megakill2.vsnd"
 	}
 
 	QuakeSoundsD.Monsterkill = 
@@ -124,10 +293,46 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/monsterkill.vsnd"
 	}
 
+	QuakeSoundsD.Monsterkill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/monsterkill2.vsnd"
+	}
+
 	QuakeSoundsD.Multikill = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/multikill.vsnd"
+	}
+
+	QuakeSoundsD.Multikill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/multikill2.vsnd"
+	}
+
+	QuakeSoundsD.Outstanding = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/outstanding.vsnd"
+	}
+
+	QuakeSoundsD.Ownage = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ownage.vsnd"
+	}
+
+	QuakeSoundsD.Pancake = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/pancake.vsnd"
+	}
+
+	QuakeSoundsD.Payback = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/payback.vsnd"
 	}
 
 	QuakeSoundsD.Perfect = 
@@ -148,10 +353,22 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/prepare.vsnd"
 	}
 
+	QuakeSoundsD.Prepare2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/prepareforbattle.vsnd"
+	}
+
 	QuakeSoundsD.Rampage = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/rampage.vsnd"
+	}
+
+	QuakeSoundsD.Retribution = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/retribution.vsnd"
 	}
 
 	QuakeSoundsD.Teamkiller = 
@@ -172,10 +389,28 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ultrakill.vsnd"
 	}
 
+	QuakeSoundsD.Ultrakill2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/ultrakill2.vsnd"
+	}
+
 	QuakeSoundsD.Unstoppable = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/unstoppable.vsnd"
+	}
+
+	QuakeSoundsD.Unstoppable2 = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/unstoppable2.vsnd"
+	}
+
+	QuakeSoundsD.Vengeance = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/default/vengeance.vsnd"
 	}
 
 	QuakeSoundsD.Wickedsick = 
@@ -214,6 +449,12 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/headshot.vsnd"
 	}
 
+	QuakeSoundsF.Hexakill = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/hexakill.vsnd"
+	}
+
 	QuakeSoundsF.Holyshit = 
 	{
 		base = "QuakeSounds.Base"
@@ -244,16 +485,34 @@
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/multikill.vsnd"
 	}
 
+	QuakeSoundsF.Pentakill = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/pentakill.vsnd"
+	}
+
 	QuakeSoundsF.Prepare = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/prepare.vsnd"
 	}
 
+	QuakeSoundsF.Quadrakill = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/quadrakill.vsnd"
+	}
+
 	QuakeSoundsF.Rampage = 
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/rampage.vsnd"
+	}
+
+	QuakeSoundsF.Shutdown = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/shutdown.vsnd"
 	}
 
 	QuakeSoundsF.Ultrakill = 
@@ -272,6 +531,12 @@
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/wickedsick.vsnd"
+	}
+
+	QuakeSoundsF.Lastmanstanding = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/female/youarethelastmanstanding.vsnd"
 	}
 
 	BombSounds.Sec1 = 
@@ -344,5 +609,17 @@
 	{
 		base = "QuakeSounds.Base"
 		vsnd_files_track_01 = "sounds/cs2/quakesounds/bomb/30sec.vsnd"
+	}
+
+	QuakeSoundsE.Forcewithyoualways = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/extra/force_with_you_always.vsnd"
+	}
+
+	QuakeSoundsE.Oneandonly = 
+	{
+		base = "QuakeSounds.Base"
+		vsnd_files_track_01 = "sounds/cs2/quakesounds/extra/one_and_only.vsnd"
 	}
 }
