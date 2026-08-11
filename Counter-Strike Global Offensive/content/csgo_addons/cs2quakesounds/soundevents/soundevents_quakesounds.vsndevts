@@ -5,7 +5,7 @@
 		type = "csgo_mega"
 		volume = 1.000000
 		pitch = 1.000000
-		occlusion_intensity = 5.000000
+		occlusion_intensity = 0.000000
 		mixgroup = "Weapons"
 		block_matching_events = false
 		block_matching_entity = false
@@ -18,7 +18,7 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		instance_limit = 999.000000
-		distance_effect_mix = 1.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
